@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subpage 2: Employees</title>
+	<link rel="stylesheet" type="text/css" href="format340.css">
+</head>
+
+<body>
+
+	<div class="name">Navigation
+		<a class="menu" href="subpage3.html">Restaurants</a>
+		<a class="menu" href="subpage2.html">Employees</a>
+		<a class="menu" href="subpage1.html">Items</a>
+	</div>
+
+	<h1 class="pageTitle"><em>Employees</em></h1>
+
+<p>This table displays all employees who are employeed under the RW brand and what restaurant they work at.</p>
+
+
+	<table>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Restaurant</th>
+			<th>Active?</th>
+		</tr>
+	</table>
+	<p>*Active? shows if the employee currently works under RW. NO could indicate the employee resigned or was terminated. </p>
+
+	<fieldset>
+	<p>Add a new employee to the RW database.</p>
+	<form class = "insertForm" action="">
+		<p></p>
+		Employee first name:<br>
+		<input type = "text" name="first_name"><br>
+		Employee last name:<br>
+		<input type = "text" name="last_name"><br>
+		Restaurant:<br>
+		<input type = "text" name="restaurant_name"><br>
+		Active?:<br>
+		<select name="active">
+			<option value="yes">YES</option>
+			<option value = "no">NO</option>
+		</select><br>
+		<input type="submit" value="Submit">
+		<p></p>
+
+	</form>
+
+	</fieldset>
+
+<!-- Navigation footer -->
+	<fieldset>
+	<p>Navigation</p>
+	<a class="menu" href="subpage3.html">Restaurants</a>
+		<a class="menu" href="subpage2.html">Employees</a>
+		<a class="menu" href="subpage1.html">Items</a>
+	</fieldset>
+	
+</body>
+</html>
